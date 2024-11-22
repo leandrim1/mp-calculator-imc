@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head id="header-primary">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="/img/image-removebg-preview.png" class="imc">
+    <h4 class="mini">Mini Projeto</h4>
+    <div class="container">
+        <img src="/img/Rectangle 10.png" class="imgFruit">
+        <h1 class="subtitle">IMC</h1>
+        <label for="peso">Digite aqui seu peso (kg):</label>
+        <input type="number" id="peso" placeholder="Ex: 70" step="0.1">
+        
+        <label for="altura">Digite aqui sua altura (m):</label>
+        <input type="number" id="altura" placeholder="Ex: 1.75" step="0.01">
+        
+        <button onclick="calcularIMC()">Calcular</button>
+        
+        <div class="result" id="resultado"></div>
+      </div>
+</body>
+<script src="/imc.js" ></script>
+</html>

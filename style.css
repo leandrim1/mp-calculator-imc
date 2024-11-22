@@ -1,0 +1,92 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242424;
+    color: #333;
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+/* Título e subtítulos */
+.subtitle {
+    color: #000000;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.mini {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Inputs e botão */
+input {
+
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-left: #ffffff;
+    border-top: #ffffff;
+    border-right: #ffffff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Resultado */
+.result {
+    background-color: #666;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo das imagens */
+.imc {
+    width: 50px;
+    margin: 10px 0;
+}
+
+.imgFruit {
+    box-sizing: border-box;
+    display: block;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 50px auto;
+}
